@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Crete+Round&family=Lato:wght@900&family=Poppins:wght@200&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -13,18 +15,37 @@ ul li {
 }
 
 body {
-  font-family: 'Roboto', serif;
+  font-family: 'Lato', sans-serif;
   height: auto;
   width: 100%;
 }
 
 header {
   background: #fff;
-  padding: 12px 14px;
   width: 100%;
+  height: 20vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header,
+.landing-page {
+  background-image: url('/images/backgrd.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-banner {
+  display: none;
 }
 
 .logo {
+  display: none;
+}
+
+.nav-items ul {
   display: none;
 }
 
@@ -32,20 +53,284 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
+
 .menu-toggle {
+  position: absolute;
+  top: 15px;
+  left: 20px;
   cursor: pointer;
+  opacity: 1;
 }
 
 .menu-toggle .bar {
-  width: 30px;
-  height: 3px;
+  width: 35px;
+  height: 5px;
   background-color: #272a31;
   margin: 5px auto;
   transition: all 0.5s ease-in-out;
   display: block;
 }
 
+.landing-text {
+  margin: 0px 15px;
+}
 
+.landing-text h3 {
+  color: #ec5242;
+}
 
+.landing-text h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #ec5242;
+  background: url('/images/bg-text.jpg');
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.landing-text p {
+  font-family: 'Lato', sans-serif;
+  color: #0e0505;
+  font-weight: 500;
+  border: #fff solid 2px;
+  padding: 10px;
+  margin-top: 35px 0;
+}
+
+.landing-text .date {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+.landing-text .venue {
+  font-family: 'Lato', sans-serif;
+  color: #0e0505;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.main-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a31;
+  margin: 60px 0;
+}
+
+.main-program h2 {
+  font-family: 'Bevan';
+  padding-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.main-program img {
+  width: 60%;
+  height: auto;
+  margin-left: 10px;
+}
+
+.lecture,
+.exibition,
+.forum,
+.workshop,
+.network {
+  display: grid;
+  grid-template-columns: 3fr 3fr 8fr;
+  gap: 10px;
+  align-items: center;
+  font-size: 18px;
+  color: #ec5242;
+  margin: 10px;
+  padding: 15px 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.main-program p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.main-program .join {
+  display: block;
+  color: #fff;
+  padding: 20px;
+  background: #ed230d;
+  margin: 30px 0;
+}
+
+.main-program .program {
+  display: none;
+}
+
+/*  Media Queries for Desktop Screen - All scrren sizes within the range of 768px onwards.  */
+@media screen and (min-width: 768px) {
+  .top-banner {
+    /* position: relative; */
+    background: #080707;
+    width: 100%;
+    height: auto;
+    padding: 0 100px;
+    text-align: right;
+    display: block;
+  }
+
+  .top-banner ul {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .top-banner li {
+    width: 20%;
+  }
+
+  .top-banner img {
+    opacity: 1;
+    height: auto;
+    width: 10%;
+  }
+
+  .top-banner a {
+    color: #fff;
+    margin-right: 10px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    background: #fff;
+  }
+
+  .logo {
+    display: block;
+    z-index: 10;
+    width: auto;
+    height: 10vh;
+    opacity: 1;
+  }
+  .nav-items ul {
+    display: flex;
+    align-items: space-between;
+  }
+
+  .nav-items li {
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+  }
+
+  .nav-items a {
+    color: #ed230d;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .landing-text {
+    margin: 0 100px;
+  }
+
+  .landing-text h3 {
+    font-size: 40px;
+    color: #ec5242;
+  }
+
+  .landing-text h1 {
+    z-index: 10;
+    font-size: 45px;
+  }
+
+  .landing-text p {
+    width: 80%;
+    font-family: 'Lato', sans-serif;
+    color: #0e0505;
+    font-weight: 500;
+    border: #fff solid 2px;
+    padding: 10px;
+    margin-top: 25px 0;
+  }
+
+  .landing-text .date {
+    font-size: 38px;
+    margin-top: 30px;
+    opacity: 1;
+  }
+
+  .landing-text .venue {
+    font-family: 'Lato', sans-serif;
+    color: #0e0505;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .main-wrap {
+    display: flex;
+    padding: 50px 0;
+  }
+
+  .main-program h2 {
+    font-family: 'Bevan';
+    padding-top: 20px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: #ed230d solid 2px;
+    padding: 15px;
+  }
+
+  .main-program img {
+    width: 20%;
+    height: auto;
+  }
+
+  .lecture,
+  .exibition,
+  .forum,
+  .workshop,
+  .network {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item:hover {
+    border: 2px solid #d3d3d3;
+  }
+
+  .main-program p {
+    font-size: 15px;
+    width: 80%;
+  }
+
+  .main-program .join {
+    display: none;
+  }
+
+  .main-program .program {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+    padding: 30px 0;
+  }
+}

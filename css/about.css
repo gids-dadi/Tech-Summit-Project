@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', serif;
+  height: auto;
+  width: 100%;
+}
+
+header {
+  /* padding: 15px; */
+  width: 100%;
+  height: 20vh;
+  background: #f8f6f6;
+}
+
+.nav-items ul {
+  display: none;
+}
+
+.top-banner {
+  display: none;
+}
+
+header,
+.landing-about {
+  background-image: url('/images/backgrd.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* header img {
+  width: 100%;
+  height: 15vh;
+  opacity: 0.2;
+  margin: 0;
+  position: relative;
+  opacity: 1;
+} */
+
+.logo {
+  display: none;
+}
+
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-toggle {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.menu-toggle .bar {
+  width: 35px;
+  height: 5px;
+  background-color: #272a31;
+  margin: 5px auto;
+  transition: all 0.5s ease-in-out;
+  display: block;
+}
+
+.landing-about {
+  background: #f8f6f6;
+  padding: 0 20px;
+}
+
+.landing-text {
+  text-align: center;
+}
+
+.landing-text h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 33px;
+  font-weight: bolder;
+  color: #ec5242;
+  margin-bottom: 25px;
+}
+
+.landing-text p {
+  font-family: 'Lato', sans-serif;
+  color: #0e0505;
+  font-size: 20px;
+  font-weight: 500;
+  background: #fff;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.contact-mail {
+  font-size: 18px;
+}
+
+.contact-mail a {
+  font-family: bold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.gallery {
+  margin-top: 25px;
+  padding: 0 40px;
+  background: #fff;
+}
+
+.gallery h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.gallery p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.gallery .logo-show {
+  border: #b4a3a3 solid 1px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.line {
+  width: 100%;
+  margin-top: 50px;
+  border: #b4a3a3 solid 1px;
+  height: 0;
+}
+
+.photo {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.photo img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.partners {
+  background: #0e0505;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.partners h2 {
+  text-align: center;
+  color: #fff;
+}
+
+hr {
+  margin: 5% 45%;
+  border: 1px solid #f12811;
+}
+
+.partners img {
+  width: 20%;
+  height: auto;
+  margin-right: 4px;
+}
+
+.partners a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #272a31;
+  font-size: 20px;
+}
+
+.partner1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 50px 10px;
+}
+
+.partner2 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.copy-right {
+  margin: 30px 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.copy-right img {
+  width: 40%;
+  height: auto;
+}
+
+/*  Media Queries for Desktop Screen - All scrren sizes within the range of 768px onwards.  */
+
+@media screen and (min-width: 768px) {
+  .top-banner {
+    /* position: relative; */
+    background: #080707;
+    width: 100%;
+    height: auto;
+    padding: 0 100px;
+    text-align: right;
+    display: block;
+  }
+
+  .top-banner ul {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .top-banner li {
+    width: 20%;
+  }
+
+  .top-banner img {
+    opacity: 1;
+    height: auto;
+    width: 10%;
+  }
+
+  .top-banner a {
+    color: #fff;
+    margin-right: 10px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    background: #fff;
+  }
+
+  .logo {
+    display: block;
+    z-index: 20;
+    width: auto;
+    height: auto;
+    opacity: 1;
+  }
+  .nav-items ul {
+    display: flex;
+    align-items: space-between;
+    margin-top: 15px;
+  }
+
+  .nav-items li {
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+  }
+
+  .nav-items a {
+    color: #ed230d;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .landing-about {
+    background: #f8f6f6;
+  }
+
+  .landing-text {
+    margin: 0 70px;
+  }
+
+  .landing-text h1 {
+    padding-top: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #ec5242;
+  }
+
+  .pastPhotos {
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pastPhotos img {
+    width: 30%;
+    height: auto;
+    margin-right: 40px;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  footer {
+    background: #080707;
+    padding: 20px 0;
+  }
+
+  .copy-right {
+    color: #fff;
+  }
+}
