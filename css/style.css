@@ -419,7 +419,6 @@ header .menu-toggle.is-active .bar:nth-child(3) {
     grid-template-columns: 1fr 1fr;
     margin-top: 30vh;
     margin-bottom: 30vh;
-
     padding: 0 40px;
   }
 
