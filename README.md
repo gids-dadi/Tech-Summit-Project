@@ -15,6 +15,7 @@ Built With:
 [Live Demo Link] (https://gids-dadi.github.io/The-portfolio-project/)
 
 #Link to Video
+https://www.loom.com/share/e30b4f34fca341d9a36e054e26aaf715
 
 
 ## Getting Started
