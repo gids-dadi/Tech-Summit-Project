@@ -1,5 +1,3 @@
-// const logoClass = document.querySelector('.logo-icon');
-
 // Mobile Menu
 const hamburger = document.querySelector('#menu-mobile');
 const menuLinks = document.querySelector('.nav-items');
@@ -8,7 +6,6 @@ hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('is-active');
   menuLinks.classList.toggle('is-active');
 });
-// logoClass.classList.toggle('closeLogo');
 
 const aboutTia = document.querySelector('.about-link');
 const programTia = document.querySelector('.program-link');
