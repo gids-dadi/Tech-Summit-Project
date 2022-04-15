@@ -152,7 +152,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
 }
 
 .contact-mail a {
-  font-family: bold;
+  font-weight: bold;
   color: #000;
   text-decoration: underline;
 }
@@ -320,7 +320,7 @@ hr {
   }
 
   .nav-items li {
-    padding: 0px;
+    padding: 0;
     margin-right: 20px;
   }
 
@@ -338,7 +338,6 @@ hr {
   .nav-items ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: flex-start;
     align-items: center;
   }
