@@ -364,7 +364,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   }
 
   .main-program h2 {
-  font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #fff;
     font-size: 30px;
     text-align: center;

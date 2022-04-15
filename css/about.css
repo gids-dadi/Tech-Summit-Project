@@ -284,7 +284,7 @@ hr {
     margin-right: 10px;
   }
 
-  .logo-icon {
+  .logo {
     display: block;
     z-index: 20;
     width: auto;
@@ -379,6 +379,8 @@ hr {
   }
 
   footer {
+    display: flex;
+    align-items: center;
     background: #080707;
     padding: 20px 0;
   }
