@@ -281,7 +281,6 @@ hr {
 
   .top-banner a {
     color: #fff;
-    /* margin-right: 10px; */
   }
 
   .logo {
@@ -381,7 +380,6 @@ hr {
   }
 
   footer {
-    /* text-align: center; */
     display: flex;
     justify-content: center;
     align-items: center;
