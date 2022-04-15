@@ -177,7 +177,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
 }
 
 .main-program h2 {
-  font-family: 'Bevan' sans-serif;
+  font-family: 'Lato', sans-serif;
   padding-top: 20px;
   color: #fff;
   font-size: 20px;
@@ -364,7 +364,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   }
 
   .main-program h2 {
-    font-family: 'Bevan' sans-serif;
+  font-family: 'Lato', sans-serif;
     color: #fff;
     font-size: 30px;
     text-align: center;
