@@ -257,16 +257,15 @@ hr {
     background: #080707;
     width: 100%;
     height: auto;
-    padding: 0 100px;
-    text-align: right;
-    display: block;
+    padding: 0 10px;
+    display: flex;
   }
 
   .top-banner ul {
-    width: auto;
+    width: 40%;
     display: flex;
     align-items: center;
-    justify-content: right;
+    margin-left: 62%;
   }
 
   .top-banner li {
@@ -276,17 +275,18 @@ hr {
   .top-banner img {
     opacity: 1;
     height: auto;
-    width: 10%;
+    width: 25%;
+    text-align: center;
   }
 
   .top-banner a {
     color: #fff;
-    margin-right: 10px;
+    /* margin-right: 10px; */
   }
 
   .logo {
     display: block;
-    z-index: 20;
+    z-index: 200;
     width: auto;
     height: auto;
   }
@@ -294,11 +294,11 @@ hr {
   nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: stretch;
     align-items: center;
     padding: 0 70px;
     position: absolute;
-    top: 3%;
+    top: 4%;
     width: 100%;
     height: 10vh;
     z-index: 100;
@@ -309,6 +309,7 @@ hr {
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     background: none;
     width: auto;
@@ -317,16 +318,17 @@ hr {
     opacity: 1;
     z-index: 100;
     transition: all 0.5s ease-in-out;
+    align-self: flex-start;
+    margin-left: 28%;
   }
 
   .nav-items li {
     padding: 0;
-    margin-right: 20px;
   }
 
   .nav-items a {
     font-family: 'Inter', sans-serif;
-    color: #ec5242;
+    color: #ac3a2d;
     line-height: 12px;
     font-size: 15px;
     font-weight: 400;
@@ -379,7 +381,9 @@ hr {
   }
 
   footer {
+    /* text-align: center; */
     display: flex;
+    justify-content: center;
     align-items: center;
     background: #080707;
     padding: 20px 0;
@@ -390,7 +394,7 @@ hr {
   }
 
   .active {
-    border: 3px solid red;
+    border: 3px solid rgb(160, 19, 19);
     padding: 5px;
   }
 }

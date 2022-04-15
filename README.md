@@ -2,6 +2,8 @@
 
 # Description of the project.
 
+Built from this <a href= "https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> Behance</a>
+
 The project is a webpage design personalised version of the module one capstone project guide. It has been designed for a non-real summit tagged the Tech in Africa (TiA) hosted to highlight the achievemnts and growth of young African tech community through innovation. The summit is to among other things create avenue for tech community to interact and showcase latest tech trends and innovation in Africa's tech community as well as the challenges.
 
 Built With:
@@ -16,7 +18,6 @@ Built With:
 
 #Link to Video
 https://www.loom.com/share/e30b4f34fca341d9a36e054e26aaf715
-
 
 ## Getting Started
 
@@ -37,7 +38,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--All the collaborators on this branch.
+-Cindy Shine @Behance for the creative design.
 
 - Thanks to Microverse code reviewers for your excellent reviews geared at making me a great programmer.
 
@@ -46,4 +47,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT]("./MIT.md") licensed.
-

@@ -239,29 +239,29 @@ header .menu-toggle.is-active .bar:nth-child(3) {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-left: 60%;
+    margin-left: 62%;
   }
 
   .top-banner li {
-    width: 30%;
+    width: 20%;
   }
 
   .top-banner img {
     opacity: 1;
     height: auto;
-    width: 30%;
+    width: 25%;
     text-align: center;
   }
 
   .top-banner a {
     color: #fff;
-    margin-right: 10px;
+    /* margin-right: 10px; */
   }
 
   nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: stretch;
     align-items: center;
     padding: 0 70px;
     position: absolute;
@@ -276,7 +276,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: none;
     width: auto;
@@ -285,16 +285,17 @@ header .menu-toggle.is-active .bar:nth-child(3) {
     opacity: 1;
     z-index: 100;
     transition: all 0.5s ease-in-out;
+    align-self: flex-start;
+    margin-left: 28%;
   }
 
   .nav-items li {
     padding: 0;
-    margin-right: 20px;
   }
 
   .nav-items a {
     font-family: 'Inter', sans-serif;
-    color: #ed230d;
+    color: #ac3a2d;
     line-height: 12px;
     font-size: 15px;
     font-weight: 400;
@@ -314,8 +315,8 @@ header .menu-toggle.is-active .bar:nth-child(3) {
     display: block;
     z-index: 10;
     width: auto;
-    height: 10vh;
     opacity: 1;
+    align-self: flex-start;
   }
 
   .menu-toggle {
@@ -360,6 +361,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
 
   .main-wrap {
     display: flex;
+    position: relative;
     padding: 50px 0;
   }
 
@@ -413,11 +415,36 @@ header .menu-toggle.is-active .bar:nth-child(3) {
     padding: 5px;
   }
 
-  .speakers-list h2 {
+  .speakers-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30vh;
+    padding: 0 40px;
+  }
+  .speaker {
+    display: flex;
+    justify-content: center;
+  }
+
+  .speaker-text {
     font-family: 'Lato', sans-serif;
-    text-align: center;
-    padding-bottom: 40px;
-    font-weight: 700;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 15px;
+    width: 60%;
+  }
+
+  .speaker-text h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .speaker-title {
+    position: absolute;
+    left: 40%;
+    top: 170vh;
+    padding: 20px;
+    border-bottom: #ac3a2d solid 2px;
   }
 
   .partners {

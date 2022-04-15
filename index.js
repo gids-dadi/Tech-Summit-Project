@@ -91,17 +91,16 @@ const speakers = [
 for (let i = 0; i < speakers.length; i += 1) {
   document.querySelector('.speakers-list').innerHTML += `
 
-<div class='row justify-content-md-center'>
+<div class='speaker'>
 
-<div  class = 'col-md-4' > 
+<div  class = 'speaker-image' > 
 <img src = ${speakers[i].image} />
 </div>
 
-  <div class="col-md-4">
+  <div class="speaker-text">
   <h2>${speakers[i].name}</h2>
     <p class='text-danger'>${speakers[i].position}</p>
     <p>${speakers[i].brief}</p>
 </div>
-
 </div>`;
 }
