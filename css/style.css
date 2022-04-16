@@ -31,7 +31,7 @@ header {
 
 header,
 .landing-page {
-  background-image: url('/images/backgrd.PNG');
+  background-image: url('/images/backgrd.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   line-height: 40px;
   font-weight: 400;
   color: #ec5242;
-  background: url('/images/bg-text.JPG');
+  background: url('/images/bg-text.jpg');
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-size: 100% 100%;
