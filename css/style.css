@@ -134,7 +134,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   line-height: 40px;
   font-weight: 400;
   color: #ec5242;
-  background: url('../images/textImage.JPG');
+  background: url("../images/textImage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
