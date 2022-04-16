@@ -137,7 +137,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   line-height: 40px;
   font-weight: 400;
   color: #ec5242;
-  background: url('/images/bg-text.jpg');
+  background: url('/images/bg-text.JPG');
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-size: 100% 100%;
@@ -342,7 +342,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
     line-height: 40px;
     font-weight: 400;
     color: #ec5242;
-    background: url('/images/bg-text.JPG');
+    background: url('/images/bg-text.PNG');
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-size: 100% 100%;
