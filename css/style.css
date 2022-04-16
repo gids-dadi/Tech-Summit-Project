@@ -461,6 +461,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   }
 
   .partners {
+    display: block;
     background: #0e0505;
     width: 100%;
     padding: 20px 0;
@@ -498,7 +499,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
 
   footer {
     background: #fff;
-    padding: 50px 0;
+    padding: 30px 0;
   }
 
   .copy-right {
