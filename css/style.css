@@ -31,7 +31,7 @@ header {
 
 header,
 .landing-page {
-  background-image: url('/images/backgrd.png');
+  background-image: url('/images/backgrd.PNG');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
