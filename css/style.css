@@ -137,9 +137,9 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   line-height: 40px;
   font-weight: 400;
   color: #ec5242;
-  background: url('/images/textImage.jpg');
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-image: url('/images/textImage.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -342,9 +342,9 @@ header .menu-toggle.is-active .bar:nth-child(3) {
     line-height: 40px;
     font-weight: 400;
     color: #ec5242;
-    background: url('/images/bg-text.jpg');
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background: url('/images/textImage.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 100% 100%;
