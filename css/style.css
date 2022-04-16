@@ -332,6 +332,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   }
 
   .landing-text h1 {
+    width: 50%;
     font-family: 'Alfa Slab One', cursive;
     font-size: 40px;
     line-height: 40px;
