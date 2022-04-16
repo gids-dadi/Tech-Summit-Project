@@ -137,12 +137,12 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   line-height: 40px;
   font-weight: 400;
   color: #ec5242;
-  background-image: url('/images/textImage.jpg');
+  /* background-image: url('/images/textImage.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
 }
 
 .landing-text p {
