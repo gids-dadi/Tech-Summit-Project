@@ -142,7 +142,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   -webkit-background-clip: text;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: 100%  100%;
+  background-position: 100% 100%;
 }
 
 .landing-text p {
@@ -267,7 +267,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
     top: 4%;
     width: 100%;
     height: 10vh;
-    z-index: 100;
+    z-index: 200;
     background: #fff;
   }
 
@@ -332,8 +332,17 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   }
 
   .landing-text h1 {
-    z-index: 10;
-    font-size: 45px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #ec5242;
+    background: url('/images/bg-text.jpg');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
   }
 
   .landing-text p {
