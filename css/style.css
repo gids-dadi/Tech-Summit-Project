@@ -28,7 +28,7 @@ header {
 
 header,
 .landing-page {
-  background: url('/images/mainImage.png');
+  background: url('../images/mainImage.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
