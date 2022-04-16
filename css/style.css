@@ -31,7 +31,7 @@ header {
 
 header,
 .landing-page {
-  background-image: url('/images/mainImage.jpg');
+  background-image: url('/images/mainImage.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -139,7 +139,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   color: #ec5242;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-image: url('/images/textImage.JPG');
+  background-image: url('/images/textImage.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 100% 100%;
