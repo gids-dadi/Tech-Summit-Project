@@ -26,8 +26,7 @@ header {
   height: 15vh;
 }
 
-/* header, */
-
+ header, 
 .landing-page {
   background-image: url('/images/mainImage.png');
   background-position: center;
