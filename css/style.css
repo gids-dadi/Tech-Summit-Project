@@ -142,7 +142,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   -webkit-background-clip: text;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: 100%  100%;
 }
 
 .landing-text p {
@@ -255,7 +255,6 @@ header .menu-toggle.is-active .bar:nth-child(3) {
 
   .top-banner a {
     color: #fff;
-    /* margin-right: 10px; */
   }
 
   nav {
@@ -443,8 +442,6 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   .speaker-title {
     text-align: center;
     font-weight: bold;
-    /* left: 40%;
-    top: 170vh; */
     padding: 20px;
   }
 
