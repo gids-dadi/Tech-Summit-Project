@@ -32,7 +32,7 @@ header {
 
 header,
 .landing-about {
-  background-image: url('/images/mainImage.png');
+  background: url('/images/mainImage.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
