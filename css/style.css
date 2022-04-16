@@ -223,6 +223,10 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   display: none;
 }
 
+.partners {
+  display: none;
+}
+
 /*  Media Queries for Desktop Screen - All scrren sizes within the range of 768px onwards.  */
 @media screen and (min-width: 768px) {
   .top-banner {
