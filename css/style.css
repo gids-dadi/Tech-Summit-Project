@@ -31,7 +31,7 @@ header {
 
 header,
 .landing-page {
-  background-image: url('/images/mainImage.png');
+  background-image: url('/images/mainImage.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -337,9 +337,9 @@ header .menu-toggle.is-active .bar:nth-child(3) {
 
   .landing-text h1 {
     width: 50%;
-    font-family: 'Alfa Slab One', cursive;
+    /* font-family: 'Alfa Slab One', cursive; */
     font-size: 40px;
-    line-height: 40px;
+    /* line-height: 40px;
     font-weight: 400;
     color: #ec5242;
     -webkit-text-fill-color: transparent;
@@ -347,7 +347,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
     background: url('/images/textImage.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-position: 100% 100%; */
   }
 
   .landing-text p {
