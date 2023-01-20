@@ -16,7 +16,7 @@ Built With:
 [Click here](https://gids-dadi.github.io/Spiral-Tech-Project)
 
 #Video
-https://www.loom.com/share/e30b4f34fca341d9a36e054e26aaf715
+[Video Link](https://www.loom.com/share/e30b4f34fca341d9a36e054e26aaf715)
 
 ## Getting Started
 
