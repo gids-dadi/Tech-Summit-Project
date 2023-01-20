@@ -14,7 +14,7 @@ Built With:
 - ESLint
 
 #Live Demo
-[Live Demo Link] ('https://gids-dadi.github.io/Spiral-Tech-Project/')
+[Click here]('https://gids-dadi.github.io/Spiral-Tech-Project/')
 
 #Video
 https://www.loom.com/share/e30b4f34fca341d9a36e054e26aaf715
