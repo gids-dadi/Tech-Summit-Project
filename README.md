@@ -28,8 +28,7 @@ https://www.loom.com/share/e30b4f34fca341d9a36e054e26aaf715
 
 👤 Gideon Dadi
 
--Linkedin [@GideonDadi] (https://www.linkedin.com/feed/)
-
+- Linkedin: [@GideonDadi](https://www.linkedin.com/feed/)
 - GitHub: [@gids_dadi](https://github.com/gids-dadi)
 - Twitter: [@Dadi_AG](https://twitter.com/Dadi_AG)
 
