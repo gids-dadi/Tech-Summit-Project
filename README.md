@@ -13,22 +13,22 @@ Built With:
 
 - ESLint
 
-##Live demo
+**Live demo**
 [Click here](https://gids-dadi.github.io/Spiral-Tech-Project)
 
-##Video
+Video
 [Video Link](https://www.loom.com/share/e30b4f34fca341d9a36e054e26aaf715)
 
 ## Getting Started
 
--Clone this repository to your desktop.
+-Clone this repository to your local machine.
 -Navigate to the top level of the directory.
--Open index.html in your browser to view the template.
+-Open index.html in your browser to view the page in the browswer.
 -click on the menu to navigate to about page.
 
 👤 Gideon Dadi
 
-- Linkedin: [@GideonDadi](https://www.linkedin.com/feed/)
+- Linkedin: [@GideonDadi](www.linkedin.com/in/gideon-akamisoko-dadi)
 - GitHub: [@gids_dadi](https://github.com/gids-dadi)
 - Twitter: [@Dadi_AG](https://twitter.com/Dadi_AG)
 
